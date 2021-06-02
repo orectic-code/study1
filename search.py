@@ -8,9 +8,9 @@ def search():
         word =input("鬼滅の登場人物の名前を入力 ＞＞ ") 
      
         if word in source:
-            print("「{}」が見つかりました".format(word))
+            print(f"「{word}」が見つかりました")
         else:
-            print("「{}」が見つかりませんでした".format(word))
+            print(f"「{word}」が見つかりませんでした")
 
             add_flg = input("追加登録しますか？(0:しない 1:する)　＞＞　")
             if add_flg == "1":
